@@ -1,0 +1,144 @@
+body{font-family: Helvetica, Arial, sans-serif;
+    color: #505050;
+}
+
+#main-container{
+    width: 75%;
+    align-content: center;
+    margin: auto;
+    padding: 35px;
+}
+
+h1{color: #c61241;}
+
+div{border: 2px solid blue;
+}
+
+.div{  border: 2px solid red;
+}
+
+.fancybox{ border: 5px solid #c61241;
+    width: 100px;
+    height: 50px;
+    margin: 1em;
+    padding:0.5em;
+    float: right;
+}
+
+.fancybox-2{background-color: #505050;
+    color: #ffffff;
+    width: 100px;
+    height: 50px;
+    border: none;
+    margin:1em;
+    padding:0.5em;
+}
+
+.fancybox-3{border:8px solid blue;
+width: 150px;
+height: 100px;
+margin: 15px;
+float: right;
+}
+
+.fancybox-4{border: 10px  solid red;
+    width: 25px;
+    height: 25px;
+    margin: 15px;
+    float: left;
+
+}
+
+.parent{border: 10px solid blue;
+    padding: 0.5em;
+    margin: 0.5em;
+    width: 150px;
+    height: 100px;
+    float: right;
+}
+
+.child{border: 10px solid red;
+    padding: 0.5em;
+    margin: 0.5em;
+    width: 20px;
+    height: 20px;
+    float: right;
+   
+}
+
+#lorem-2{font-size: 14px;
+    font-style: bold italic; 
+    text-decoration: underline;
+}
+
+#quote{font: 24px 'Playfair Display', 'serif', 'sans-serif';
+    color: #c61241;
+}
+
+em{color: #c61241;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.box-container{border: none;
+                display: flex;
+                flex-wrap: wrap;
+}
+.box{width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Playfair Display', 'monospace';
+    color: black;   
+}
+
+.red{background-color: red;
+}
+
+.green{background-color: green;
+}
+
+.yellow{background-color: yellow
+}
+
+.container{width: 200px;
+            height: 200px;
+            background-color: #505050;
+            border: 5px solid #505050;
+}
+
+.red-1{width: 100px;
+        height: 100px;
+        background-color: #c61241;
+        border: none;
+}
+
+.grey-1{width: 100px;
+    height: 100px;
+    background-color: #c61241;
+    border: none;
+    float: right;
+}
+
+/*Tittactoe */
+.outer{width: 300px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.inner{width:90px;
+height: 90px;
+background-color: #96d5ee;
+border: 5px solid #fff;
+list-style: none;
+font-family: 'Playfair Display','helvitica', 'monospace';
+font-size: 68px;
+text-align: center;
+color: #fff;
+}
+
+span{
+    color: #0dd1ff;
+}

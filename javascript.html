@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Javascript Exercises</title>
+        <link rel="stylesheet" href="style.css" type="text/css">
+    </head>
+
+    <body>
+        <h2>Use the below equation and the variables <code>fahrenheit</code> and <code>celsius</code> to print
+        the Fahrenheit equivalent of 12<sup>0</sup>C</h2>
+        <code>F=C x 1.8+32</code>
+
+             <script>
+            const celsius = 12;
+            const fahrenheit = celsius * 1.8 + 32;
+
+            console.log(fahrenheit);
+            </script>
+
+        <h2>Identify the character on index 7 <sup>th</sup>and 13<sup>th</sup>respectively in the following string.</h2>
+
+             <script>
+            const sentenceOne = 'Stay awhile and listen';
+            console.log(sentenceOne [6]);
+            console.log(sentenceOne.charAt(0));
+           </script>
+
+        <h2>Escaping strings</h2>
+           <script>
+            const quote = "\"love one another. Jesus commanded\"";
+            console.log(quote);
+           </script>
+
+        <h2>Buila string using concatenation by combining lines from this famous haiku poem</h2>
+           <code>
+            Blowing from the west <br>
+            Fallen leaves gather <br>
+            In the east. <br>
+           </code>
+
+           <script>
+            const poem ='Blowing from the west \n ' + 'Fallen leaves gather \n' + 'In the east.';
+            console.log(poem);
+           </script>
+
+        <h2>Create a variable called <code>bill</code> and assign it the result of <code>10.25 + 3.99 + 7.15</code>
+        (don't perform the calculation 
+        yourself, let JavaScript do it!). Next, create a variable called <code>tip</code> and assign it the result 
+        of multiplying <code>bill</code> by a 15% tip rate. Finally, add the <code>bill</code> and <code>tip</code> 
+        together and store it into a variable called <code>total.</code>
+        </h2>
+
+            <code> 
+                const bill = 10.25+3.99+7.15;
+                const tip =bill * 0.15;
+                const total = bill + tip;
+                console.log( 'Kes' + total.toFixed(2));
+            </code>
+
+            <script>
+                const bill = 10.25+3.99+7.15;  
+                const tip =bill * 0.15;
+                const total = bill + tip;
+                console.log( 'Kes' + total.toFixed(2));
+            </script>
+
+        <h2>Hobbies</h2>
+
+            <script>
+                const firstName = 'Julia.';
+                const interest = 'cats.';
+                const hobby = 'video games';
+                const awesomeMessage = 'Hi, my name is ' +firstName +'I love' +interest +'In my spare time, I like to play '+hobby;
+
+                console.log(awesomeMessage);
+            </script>
+
+
+
+    </body>
+
+</html>

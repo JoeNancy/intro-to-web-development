@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>My Notes</title>
+
+        <link rel="stylesheet" href="style.css" type="text/css">
+    </head>
+
+    <body>
+<!--HTML Begins Here-->
+        <div id="main-container">
+            <article>
+                <h1>HTML 5</h1>
+                    <h2>HTML Elements</h2>
+                    <p>A HTML element is an individual component of a HTML document. A tag is a part of an element. It  opens
+                    and closes an element apart  from null elements that do not have closing tag.</p>
+                    <img src="/udacity&alx/images/html-elements-components.jpg" alt="layout of a html element"> 
+                    <p>Attributes in HTML elements are contained in the opening tag and never in the closing tag.</p>
+
+                    <p>
+                    Each element in HTLM has an opening and closing tag, apart from null elements. Example:
+                    <code>&lt;em&gt;Hello World!&lt;/em&gt;</code>
+                    </p>
+
+                    <h2>Null Elements</h2>
+                    <p>
+                    Elements that do not have a closing version of them e.g &lt;br&gt;, &lt;hr&gt;, &lt;img&gt; are called void 
+                    or null elements.
+                    </p>
+
+                    <h2>Typgraphic Elements</h2>
+                    <p>Typographic elements tell the browser to how to render text. Here are a few examples:</p>
+                        <ol>
+                            <li><code>&lt;b&gt;</code> Make text bold.</li>
+                            <li><code>&lt;strong&gt;</code>Important text. This has a semantic value.</li>
+                            <li><code>&lt;i&gt;</code>Make text italics</li>
+                            <li><code>&lt;em&gt;</code>Emphasize the text. This has a semantic value.</li>
+                            <li><code>&lt;mark&gt;</code>Highlight text.</li>
+                            <li><code>&lt;small&gt;</code>Make text smaller.</li>
+                            <li><code>&lt;del&gt;</code>Mark text as deleted.</li>
+                            <li><code>&lt;ins&gt;</code>Mark text as inserted.</li>
+                            <li><code>&lt;sup&gt;</code>Make the script a superscript.</li>
+                            <li><code>&lt;sub&gt;</code>Make the script a subscript.</li>
+                        </ol>
+
+                <h2>Block Elements</h2>
+                    <p>Block elements create an invisible box around the content they contain. They also add a 
+                    a space above and below themselves. These elements always start on a new line and take up 
+                    the full width available. <mark> This default formatting can of course be changed using 
+                    CSS</mark> Block elements can only appear within a body element.
+                    <br>
+                    Examples of block elements</p>
+
+                    <ul>
+                        <li>p</li>
+                        <li>ol, ul</li>
+                        <li>h1-h6</li>
+                        <li>video</li>
+                        <li>div</li>
+                        <li>table</li>
+                        <li>forms</li>
+                    </ul>
+                
+                <h2>Inline Elements</h2>
+                    <p>Inline Elements on the other hand, do not create the invisible box. They flow within the 
+                        content. They also do not start on a new line.
+                        <br>
+                    Examples of inline elements</p>
+
+                    <ul>
+                        <li>span</li>
+                        <li>br</li>
+                        <li>a</li>
+                        <li>img</li>
+                        
+                    </ul>
+<!--Lists-->
+        <h1>Lists</h1>
+
+            <p><mark>The <code>p</code> and <code>li</code> elements do not require closing tags.</mark> They are implied 
+            when the browser encounters another opening tag that cannot be nested inside the above elements.</p>
+            </article>
+
+<!--CSS Begins Here-->
+            <article>
+            <h1>CASCADING STYLE SHEETS (CSS)</h1>
+                 <p>CSS declration contains two parts: <mark>a selector</mark> and <mark>a declaration</mark></p>
+                <p>Types of CSS selectors:</p>
+                 <ul>
+                     <li>Type Selectors-This selector targets all the elements with the given name.</li>
+                    <li>Class & Id Selectors-Class and id selector, will require you to add a class or id attribute to the 
+                    html to use them.<br>
+                    For class you need the . sign before the class name to tell CSS that this is a class selector. 
+                    For id, you need the # sign before the id name to tell CSS that this is an id selector. An id can only be used
+                    to style a specific element. To name multiple html elements, use the class selector.
+                    </li>
+                </ul>
+
+            <h2>Measurements in CSS</h2>
+                <p>There are two major kinds of lenghts in CSS</p>
+                <ol>
+                    <li>Absolute Lengths</li>
+                    <li>Relative Lenghts</li>
+                </ol>
+            <h3>Absolute Lenghts</h3>
+                <p>Absolute lenghs are based on actual physical unit. They will generally render the same across all devices. There
+                may be some exceptions to this rule based on browser and OS settings.<br>
+                The absolute lenghts are:
+                </p>
+                <ul>
+                    <li>Pixel(px). A pixel is 1/96 of an inch. Due to the differences in screen resolutions, this may differ abit from 
+                    screen to screen.</li>
+                    <li>Centimetres(cm)- It is roughly 37.8 pixels.</li>
+                    <li>Millimetres(mm)-It is roughly 3.78 pixels.</li>
+                    <li>Inches(in)- It is roughly 96 pixels.</li>
+                    <li>Points(pt)- It is roughly 1.3333 pixels</li>
+                    <li>Picas(pc)- It is  roughly 16 pixels.</li>
+                </ul>
+
+                <h3>Relative Lenghts</h3>
+                <p>Relative lenghts are relative to another element's size or length.</p>
+                <ul>
+                    <li>em- It inherits the measurements based on the parent element.</li>
+                    <li>rem- Rootem inherits its measurements based on the root of the document.</li>
+                    <li>%-Relative to the parent size</li>
+                    <li>View width(vw)- It is 1% of the width of the viewport.</li>
+                    <li>View height(vh)- It is 1% of the height of the viewport</li>
+                </ul>
+
+            </article>
+
+<!--Javascript Begins Here-->        
+            <article>
+                <h1>JAVASCRIPT</h1>
+                    <h1>Datatypes</h1>
+                        <h2>Numbers</h2>
+                            <p>Numbers is a form of datatype that includes whole numbers and decimal number. They can be positive or
+                            negative.
+                            </p>
+                            <h2>Booleans</h2>
+                            <p>The values <code><mark>true</mark></code> or <code><mark>false</mark></code> are a data type called Bolleans.</p>
+                            <h2>Strings</h2>
+                            <p>
+                            Strings are characters-letters or numbers, written within the console log and put within quotation marks.<mark>
+                            The quotation marks can be single or double quotes.</mark> Whichever you use, double or single, be
+                            consistent.In Javscript, you can add strings together as shown below:
+                            </p>
+                            <code>'Hello ' + 'Nairobi'</code>becomes<br>
+                            <code>'Hello Nairobi'</code>
+                            <p>
+                            This process of adding strings is called <mark>concatenation.</mark>The other 2 datatypes in Javscript are <i>null</i>
+                            and <i>undefined</i> which we shall delve into later.
+                            </p>
+        
+                    <h1>Variables</h1>
+                        <p>Variables are containers for storing data for easier manipulation. In Javscript variables can be declared in 3 ways using:
+                        <br>
+                        <code><mark>var</mark></code> Has been used in Javscript from 1995. Use this for backward compatibility.
+                        <br>
+                        <code><mark>const</mark></code>This is considered the best practice.
+                        <br>
+                        <code><mark>let</mark></code> This is used in the instances where the value of the variable can change.
+                        </p>
+                        <h2>Naming variables</h2>
+                            <p>Variables in --Javascript are named in camelCase format.That means the first word is lowercase,while 
+                            the rest of the words are initial caps. If the variavle name is just one, use lowercase.<br>
+                            <code>var totalAfterTax = '53.03;'</code><br>
+                            <code>const tip = '8';</code>
+                            </p>
+
+            <h2>String Indexing</h2>
+                <p>String indexing allows you to access individual characters making up the string. The location of each character is
+                known as its <mark>index.</mark>String numbering starts from 0. To access a character, put the index of the 
+                inside [ ] square brackets.<br>
+                <code>'James' [0];</code> </p>
+                <b>Try it out</b>
+             
+            <h2>Escaping strings</h2>
+                <p>Escaping a character in Javscript, means telling Javscript to ignore a special character, and treat it as part of the 
+                string. You do this by adding a back slash <code>\</code> You can 
+                <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types#using_special_characters_in_strings" target="_blank">
+                see a full list of characters</a> that need to be here.
+                </p>
+                <b>Try it out</b>
+
+            <h2>Comparing Strings</h2>
+                <p>You can check if a string is grater or smaller than the other. JavaScript does this by assigning numericla value to 
+                to each character. Each character is assigned numerical value that corresponds to the character's location in the
+                <a href='http://www.ascii-code.com/' target='_blank'>ASCII table.</a>
+                </p>
+
+            <h2>Booleans</h2>
+                <p>A boolean variable is essential in evaluating the outcome of the conditions. The value is 
+                <code><mark>true</mark></code> or <code><mark>false</mark></code>
+                </p>
+            <h2>Null & Undefined</h2>
+                <p><code>null</code>and <code>undefined</code> are somewhat similar. Null is returned only when the variable has been
+                expressesly set to the value <code>null</code>. Undefined is returned when a variable has no value. 
+                See the example below.
+                </p>
+                <code>
+                    <span>//This will return a null result//</span> <br>
+                    const ripeApple = null; 
+                    console.log(ripeApple); <br>
+                    
+                    <span>//This will return an undefined result//</span> <br>
+                    var unripeApple =;
+                    console.log(unripeApple);
+                </code>
+
+                <script>
+                    //This will retuen a null result//
+                    const ripeApple = null;
+                    console.log(ripeApple);
+
+                    var unripeApple =
+                    console.log(unripeApple);
+                </script>
+
+            <h2>Implicit type coercion</h2>
+                <p>
+                JavaScript is known as loosely typed language. This means that you do not have to specify the data type.
+                The JavaScript engine interpret the code into the 'appropriate' data type.  The opposite is 
+                <mark>strongly typed language</mark> that may return errors in such a case.This feature is known as 
+                <mark>implicit type coercion</mark>. See the example below <br>
+                    <code>Concatenate the following <br>
+                        const name = 'Julia'; <br>
+                        const num = '1'; <br>
+                        const position = name + num <br>
+
+                        console.log(position);
+                    </code>
+                </p>
+
+                <script>
+                    const name = 'Julia ';
+                        const num = '1';
+                        const position = name+num;
+
+                        console.log(position);
+                </script>
+                <p>In the above example, Javascript takes <code>Julia</code> which is a string and <code>1</code> which is 
+                a number. The result <code>Julia 1</code> is a string.
+                </p>
+            </article>
+        </div>
+    </body>
+</html>
